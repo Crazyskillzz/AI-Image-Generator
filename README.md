@@ -1,1 +1,3 @@
-This is an AI Image Generator which you can use for free
+Welcome to AIpixo, your personal free AI Image Generator!
+
+You can find us on the web https://aipixo.onrender.com/
