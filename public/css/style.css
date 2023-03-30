@@ -92,6 +92,16 @@ form select {
   margin-top: 1rem;
 }
 
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #222;
+  background-position: center;
+  width: 50%;
+  margin-left: 25%;
+  color: #f5d2d2;
+}
+
 @media (max-width: 767px) {
   .showcase form input,
   form select {
