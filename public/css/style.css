@@ -83,6 +83,15 @@ form select {
   margin-bottom: 1rem;
 }
 
+.brand-color {
+  color: #cdef20;
+}
+
+.sec-lineh3 {
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+
 @media (max-width: 767px) {
   .showcase form input,
   form select {
