@@ -102,6 +102,14 @@ form select {
   color: #f5d2d2;
 }
 
+.myname {
+  color: #cdef20;
+}
+
+.myname:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 767px) {
   .showcase form input,
   form select {
