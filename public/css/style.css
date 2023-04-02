@@ -102,12 +102,46 @@ form select {
   color: #f5d2d2;
 }
 
-.myname {
+.myname,
+.brand-color {
   color: #cdef20;
+  display: inline-block;
+  animation-name: subtitleBounce;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
 }
 
 .myname:hover {
   color: var(--primary-color);
+  transform: scale(0.9);
+  outline: none;
+  animation: pulsate 1s infinite;
+}
+@keyframes subtitleBounce {
+  0% {
+    opacity: 0;
+    scale: -50%;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+  50% {
+    transform: scale(0.95);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
 }
 
 @media (max-width: 767px) {
