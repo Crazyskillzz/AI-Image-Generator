@@ -8,7 +8,7 @@ function onSubmit(e) {
   const size = document.querySelector("#size").value;
 
   if (prompt === "") {
-    alert("Please add some text before you click Generate");
+    alert("Please add a script before you click Generate");
     return;
   }
 
