@@ -32,7 +32,9 @@ async function generateImageRequest(prompt, size) {
 
     if (!response.ok) {
       removeSpinner();
-      throw new Error("That image could not be generated!");
+      throw new Error(
+        "That image could not be generated! Due to subscription limitations, the maximum image generation limit has been reached. "
+      );
     }
 
     const data = await response.json();
